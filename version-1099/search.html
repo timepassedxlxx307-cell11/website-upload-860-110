@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索影视作品 - 影视大全</title>
+  <meta name="description" content="影视大全搜索页支持按标题、地区、年份、类型和标签检索高清国产电影电视剧全集点播内容。">
+  <meta name="keywords" content="影视大全免费在线观看 _ 国产高清电影电视剧全集点播_经典老电影网,国产,视频,免费,在线观看,高清,影视大全">
+  <link rel="stylesheet" href="./assets/css/site.css">
+  <script defer src="./assets/js/search-data.js"></script>
+  <script defer src="./assets/js/search.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-shell">
+    <a class="brand" href="./index.html" aria-label="影视大全首页">
+      <span class="brand-mark">影</span>
+      <span class="brand-text">影视大全</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="展开导航" data-nav-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav-links" data-nav-menu>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./rank.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+    </nav>
+    <form class="nav-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影视作品" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero slim-hero">
+    <div class="page-hero-inner">
+      <span class="section-kicker">Search</span>
+      <h1>搜索影视作品</h1>
+      <p>输入影片名称、地区、年份、类型或标签，快速找到对应详情页。</p>
+      <form class="page-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影视作品" data-search-input autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="section-shell">
+    <div class="section-heading compact-heading">
+      <div>
+        <span class="section-kicker">Results</span>
+        <h2 data-search-title>热门视频</h2>
+        <p data-search-subtitle>输入关键词后可查看匹配影片。</p>
+      </div>
+    </div>
+    <div class="movie-grid" data-search-results></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-shell">
+    <div class="footer-brand">
+      <a class="brand footer-logo" href="./index.html">
+        <span class="brand-mark">影</span>
+        <span class="brand-text">影视大全</span>
+      </a>
+      <p>影视大全是专注于国产影视内容的免费在线观看平台，汇集高清国产电影、热播国产电视剧及经典影片。提供超清画质流畅播放体验，打造全面的国产片库。</p>
+    </div>
+    <div class="footer-group">
+      <h2>快速入口</h2>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">影视分类</a>
+      <a href="./rank.html">排行榜</a>
+      <a href="./search.html">搜索影视作品</a>
+    </div>
+    <div class="footer-group">
+      <h2>分类专区</h2>
+        <a href="./category-chinese.html">国产精选</a>
+        <a href="./category-suspense.html">悬疑犯罪</a>
+        <a href="./category-romance-sci-fi.html">爱情科幻</a>
+        <a href="./category-japan-korea.html">日韩热播</a>
+        <a href="./category-western.html">欧美佳片</a>
+        <a href="./category-drama.html">年代剧情</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 影视大全 · 高清国产电影电视剧全集点播</div>
+</footer>
+
+<script defer src="./assets/js/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

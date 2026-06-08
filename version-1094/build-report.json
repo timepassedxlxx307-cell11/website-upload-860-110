@@ -1,0 +1,16 @@
+{
+  "parsed_movies": 2000,
+  "detail_pages": 2000,
+  "category_pages": 8,
+  "video_sources_from_uploaded_js": 20,
+  "category_counts": {
+    "欧美电影": 250,
+    "欧美剧集": 250,
+    "科幻惊悚": 250,
+    "爱情喜剧": 250,
+    "动作犯罪": 250,
+    "动漫奇幻": 250,
+    "纪录综艺": 250,
+    "经典热播": 250
+  }
+}
